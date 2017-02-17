@@ -1,0 +1,30 @@
+{
+  "name": "luck28",
+  "version": "0.0.1",
+  "description": "幸运28统计/算法测试/模式测试/盈利计算",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedada-hc/luck28.git"
+  },
+  "keywords": [
+    "luck28",
+    "幸运28",
+    "hezone",
+    "模式测试"
+  ],
+  "author": "hezone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hedada-hc/luck28/issues"
+  },
+  "homepage": "https://github.com/hedada-hc/luck28#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "electron": "^1.4.15",
+    "superagent": "^3.4.4"
+  }
+}
