@@ -25,6 +25,8 @@
   "dependencies": {
     "async": "^2.1.4",
     "electron": "^1.4.15",
+    "node-promise": "^0.5.12",
+    "promise": "^7.1.1",
     "superagent": "^3.4.4"
   }
 }
