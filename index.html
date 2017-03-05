@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./app/css/index.css">
+</head>
+<body>
+<div id="app">
+	<div>
+		<ul v-if="logins" class="login">
+			<li><span>账号：</span><input class="input" type="text" v-model="username" name=""></li>
+			<li><span>密码：</span><input class="input" type="password" v-model="password" name=""></li>
+			<li><span>验证码：</span><input class="code" type="text" v-model="code" name=""><img :src="codeURL"></li>
+			<button @click="login()">登录</button>
+		</ul>
+	</div>
+	<button @click="getdata()">获取数据</button>
+	<button @click="Lottr()">投注</button>
+	<p style="color:red">{{MsgText}}</p>
+</div>
+<script type="text/javascript" src="./app/vue.js"></script>
+<script type="text/javascript" src="./app/index.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+ul,a,li{
+	list-style:none;
+	text-decoration-line:none;
+	margin: 0;
+	padding: 0;
+}
+.login{
+	width:50vw;
+	display:block;
+	margin: 0 auto;
+}
+.login li{
+	width:250px;
+	padding: 5px 0 5px 0;
+}
+.login li .input{
+	margin-left: 16px;
+}
+.login li .code{
+	width:65px;
+}
+
+.login li img{
+	width:95px;
+	margin-left:10px;
+}

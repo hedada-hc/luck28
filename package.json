@@ -4,7 +4,8 @@
   "description": "幸运28统计/算法测试/模式测试/盈利计算",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,11 @@
   "dependencies": {
     "async": "^2.1.4",
     "electron": "^1.4.15",
+    "gm": "^1.23.0",
+    "moment": "^2.17.1",
     "node-promise": "^0.5.12",
+    "node-schedule": "^1.2.0",
+    "node-tesseract": "^0.2.7",
     "promise": "^7.1.1",
     "superagent": "^3.4.4"
   }
